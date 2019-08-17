@@ -1,0 +1,10 @@
+<resources>
+    <attr name="motionProgress" />
+    <attr name="motionTarget" />
+    <attr name="layout_marginBottom" />
+    <attr name="motionPathRotate" />
+    <attr name="duration" />
+    <attr name="flow_verticalSeparator" />
+    <attr name="flow_horizontalSeparator" />
+    <attr name="waveDecay" />
+</resources>

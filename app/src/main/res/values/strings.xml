@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Animated Icons</string>
+    <string name="box">M0,0h12v12h-12z</string>
+</resources>
