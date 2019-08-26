@@ -6,4 +6,64 @@
         android:animation="@animator/loadingv2_offset1"
         android:name="1-1" />
 
+    <target
+        android:animation="@animator/loadingv2_offset2"
+        android:name="2-1" />
+
+    <target
+        android:animation="@animator/loadingv2_offset2"
+        android:name="1-2" />
+
+    <target
+        android:animation="@animator/loadingv2_offset3"
+        android:name="3-1" />
+
+    <target
+        android:animation="@animator/loadingv2_offset3"
+        android:name="2-2" />
+
+    <target
+        android:animation="@animator/loadingv2_offset3"
+        android:name="1-3" />
+
+    <target
+        android:animation="@animator/loadingv2_offset4"
+        android:name="1-4" />
+
+    <target
+        android:animation="@animator/loadingv2_offset4"
+        android:name="2-3" />
+
+    <target
+        android:animation="@animator/loadingv2_offset4"
+        android:name="3-2" />
+
+    <target
+        android:animation="@animator/loadingv2_offset4"
+        android:name="4-1" />
+
+    <target
+        android:animation="@animator/loadingv2_offset5"
+        android:name="2-4" />
+
+    <target
+        android:animation="@animator/loadingv2_offset5"
+        android:name="3-3" />
+
+    <target
+        android:animation="@animator/loadingv2_offset5"
+        android:name="4-2" />
+
+    <target
+        android:animation="@animator/loadingv2_offset6"
+        android:name="3-4" />
+
+    <target
+        android:animation="@animator/loadingv2_offset6"
+        android:name="4-3" />
+
+    <target
+        android:animation="@animator/loadingv2_offset7"
+        android:name="4-4" />
+
 </animated-vector>

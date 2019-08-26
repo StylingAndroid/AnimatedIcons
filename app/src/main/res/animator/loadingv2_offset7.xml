@@ -10,31 +10,31 @@
 
     <propertyValuesHolder android:propertyName="scaleX">
         <keyframe
-            android:fraction="0"
+            android:fraction="0.35"
             android:value="0.0" />
         <keyframe
-            android:fraction="0.2"
+            android:fraction="0.55"
             android:value="1.0" />
         <keyframe
-            android:fraction="0.5"
+            android:fraction="0.8"
             android:value="1.0" />
         <keyframe
-            android:fraction="0.7"
+            android:fraction="1.0"
             android:value="0.0" />
     </propertyValuesHolder>
 
     <propertyValuesHolder android:propertyName="scaleY">
         <keyframe
-            android:fraction="0"
+            android:fraction="0.35"
             android:value="0.0" />
         <keyframe
-            android:fraction="0.2"
+            android:fraction="0.55"
             android:value="1.0" />
         <keyframe
-            android:fraction="0.5"
+            android:fraction="0.8"
             android:value="1.0" />
         <keyframe
-            android:fraction="0.7"
+            android:fraction="1.0"
             android:value="0.0" />
     </propertyValuesHolder>
 </objectAnimator>
