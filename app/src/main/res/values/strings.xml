@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Animated Icons</string>
     <string name="box">M0,0h12v12h-12z</string>
+
+    <string name="strike_start">M4,4L4,4L3,5L3,5Z</string>
+    <string name="strike_full">M4,4L20,20L19,21L3,5Z</string>
+    <string name="strike_end">M20,20L20,20L19,21L19,21Z</string>
+
+    <string name="strike_mask_start">M0,0H24V24H0Z M4,4L4,4L5,3L5,3Z</string>
+    <string name="strike_mask_full">M0,0H24V24H0Z M4,4L20,20L21,19L5,3Z</string>
+    <string name="strike_mask_end">M0,0H24V24H0Z M20,20L20,20L21,19L21,19Z</string>
 </resources>

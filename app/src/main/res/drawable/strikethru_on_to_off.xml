@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/strikethru_on">
+
+    <target
+        android:animation="@animator/strike_toggle_off"
+        android:name="strike" />
+
+    <target
+        android:animation="@animator/strike_mask_toggle_off"
+        android:name="strike_mask" />
+
+</animated-vector>

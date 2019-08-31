@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
 
-        activity_main.children().filterIsInstance<ImageView>().forEach { it.start() }
+        activity_main.children()
+            .filterIsInstance<ImageView>()
+            .forEach { it.start() }
     }
 
     private fun ViewGroup.children() =
@@ -30,7 +32,9 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
 
-        activity_main.children().filterIsInstance<ImageView>().forEach { it.stop() }
+        activity_main.children()
+            .filterIsInstance<ImageView>()
+            .forEach { it.stop() }
     }
 
     private fun ImageView.stop() {

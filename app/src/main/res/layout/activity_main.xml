@@ -5,8 +5,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:layout_margin="16dp">
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/loadingv2"
@@ -18,16 +18,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/loadingv2" />
 
-    <ImageView
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/strikethru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/strikethru"
+        android:backgroundTint="@color/colorAccent"
+        android:checked="false"
+        android:contentDescription="@null"
+        android:thumb="@null"
+        app:layout_constraintStart_toEndOf="@id/loadingv2"
+        app:layout_constraintTop_toTopOf="@id/loadingv2" />
+
+    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/selected"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:importantForAccessibility="no"
-        android:tint="@color/colorAccent"
+        android:background="@drawable/strikethru"
+        android:backgroundTint="@color/colorAccent"
+        android:contentDescription="@null"
+        android:thumb="@null"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/loadingv2"
-        app:srcCompat="@drawable/loadingv2" />
+        app:layout_constraintDimensionRatio="h,1:1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
