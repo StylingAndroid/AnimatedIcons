@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
     private fun ImageView.start() {
         (drawable as? Animatable2)?.start()
     }
-<<<<<<< HEAD
 
     override fun onPause() {
         super.onPause()
@@ -37,6 +36,4 @@ class MainActivity : AppCompatActivity() {
     private fun ImageView.stop() {
         (drawable as? Animatable2)?.stop()
     }
-=======
->>>>>>> LoadingV2
 }
