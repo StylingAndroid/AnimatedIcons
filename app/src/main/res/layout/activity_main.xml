@@ -31,10 +31,22 @@
         app:layout_constraintTop_toTopOf="@id/loadingv2" />
 
     <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/plus_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/plus_x"
+        android:backgroundTint="@color/colorAccent"
+        android:checked="false"
+        android:contentDescription="@null"
+        android:thumb="@null"
+        app:layout_constraintStart_toEndOf="@id/strikethru"
+        app:layout_constraintTop_toTopOf="@id/strikethru" />
+
+    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/selected"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/strikethru"
+        android:background="@drawable/plus_x"
         android:backgroundTint="@color/colorAccent"
         android:contentDescription="@null"
         android:thumb="@null"
