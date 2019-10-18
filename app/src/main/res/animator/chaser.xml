@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000"
+    android:interpolator="@android:interpolator/linear"
+    android:repeatCount="infinite"
+    android:repeatMode="restart">
+
+    <propertyValuesHolder
+        android:propertyName="trimPathEnd"
+        android:valueFrom="0"
+        android:valueTo="1.0"
+        android:valueType="floatType">
+
+        <keyframe
+            android:fraction="0.2"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:value="0.25" />
+
+        <keyframe
+            android:fraction="0.25"
+            android:value="0.25" />
+
+        <keyframe
+            android:fraction="0.45"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:value="0.5" />
+
+        <keyframe
+            android:fraction="0.5"
+            android:value="0.5" />
+
+        <keyframe
+            android:fraction="0.7"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:value="0.75" />
+
+        <keyframe
+            android:fraction="0.75"
+            android:value="0.75" />
+
+        <keyframe
+            android:fraction="0.95"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:value="1.0" />
+
+        <keyframe
+            android:fraction="1"
+            android:value="1.0" />
+    </propertyValuesHolder>
+
+    <propertyValuesHolder
+        android:propertyName="trimPathStart"
+        android:valueFrom="0.0"
+        android:valueTo="1.0"
+        android:valueType="floatType">
+
+        <keyframe
+            android:fraction="0.05"
+            android:value="0" />
+
+        <keyframe
+            android:fraction="0.25"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:value="0.249" />
+
+        <keyframe
+            android:fraction="0.3"
+            android:value="0.249" />
+
+        <keyframe
+            android:fraction="0.5"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:value="0.499" />
+
+        <keyframe
+            android:fraction="0.55"
+            android:value="0.499" />
+
+        <keyframe
+            android:fraction="0.75"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:value="0.749" />
+
+        <keyframe
+            android:fraction="0.8"
+            android:value="0.749" />
+
+        <keyframe
+            android:fraction="1.0"
+            android:interpolator="@android:interpolator/accelerate_decelerate"
+            android:value="0.999" />
+    </propertyValuesHolder>
+</objectAnimator>

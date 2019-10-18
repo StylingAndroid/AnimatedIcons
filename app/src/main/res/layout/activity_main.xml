@@ -42,18 +42,26 @@
         app:layout_constraintStart_toEndOf="@id/strikethru"
         app:layout_constraintTop_toTopOf="@id/strikethru" />
 
-    <androidx.appcompat.widget.SwitchCompat
+    <ImageView
+        android:id="@+id/loadingv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:tint="@color/colorAccent"
+        app:layout_constraintStart_toEndOf="@id/plus_x"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/loadingv3" />
+
+    <ImageView
         android:id="@+id/selected"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/plus_x"
-        android:backgroundTint="@color/colorAccent"
-        android:contentDescription="@null"
-        android:thumb="@null"
+        android:importantForAccessibility="no"
+        android:tint="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/loadingv2"
-        app:layout_constraintDimensionRatio="h,1:1"/>
+        app:srcCompat="@drawable/loadingv3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
