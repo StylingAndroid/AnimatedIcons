@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_shortAnimTime"
+    android:interpolator="@android:interpolator/decelerate_quad"
+    android:propertyName="pathData"
+    android:valueFrom="@string/max_top_left"
+    android:valueTo="@string/min_top_left"
+    android:valueType="pathType" />

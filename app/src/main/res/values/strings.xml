@@ -9,4 +9,13 @@
     <string name="strike_mask_start">M0,0H24V24H0Z M4,4L4,4L5,3L5,3Z</string>
     <string name="strike_mask_full">M0,0H24V24H0Z M4,4L20,20L21,19L5,3Z</string>
     <string name="strike_mask_end">M0,0H24V24H0Z M20,20L20,20L21,19L21,19Z</string>
+
+    <string name="max_top_left">M24,8 L8,8 L8,24</string>
+    <string name="min_top_left">M24,8 L24,24 L8,24</string>
+    <string name="max_top_right">M40,8 L56,8 L56,24</string>
+    <string name="min_top_right">M40,8 L40,24 L56,24</string>
+    <string name="max_bottom_left">M24,56 L8,56 L8,40</string>
+    <string name="min_bottom_left">M24,56 L24,40 L8,40</string>
+    <string name="max_bottom_right">M40,56 L56,56 L56,40</string>
+    <string name="min_bottom_right">M40,56 L40,40 L56,40</string>
 </resources>

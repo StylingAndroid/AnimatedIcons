@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/min">
+
+    <target
+        android:animation="@animator/min_max_top_left"
+        android:name="top_left" />
+
+    <target
+        android:animation="@animator/min_max_top_right"
+        android:name="top_right" />
+
+    <target
+        android:animation="@animator/min_max_bottom_left"
+        android:name="bottom_left" />
+
+    <target
+        android:animation="@animator/min_max_bottom_right"
+        android:name="bottom_right" />
+
+</animated-vector>

@@ -52,16 +52,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/loadingv3" />
 
-    <ImageView
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/max_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/max_min"
+        android:backgroundTint="@color/colorAccent"
+        android:checked="false"
+        android:contentDescription="@null"
+        android:thumb="@null"
+        app:layout_constraintStart_toEndOf="@id/loadingv3"
+        app:layout_constraintTop_toTopOf="@id/loadingv3" />
+
+    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/selected"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:importantForAccessibility="no"
-        android:tint="@color/colorAccent"
+        android:background="@drawable/max_min"
+        android:backgroundTint="@color/colorAccent"
+        android:contentDescription="@null"
+        android:thumb="@null"
+        android:checked="false"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/loadingv2"
-        app:srcCompat="@drawable/loadingv3" />
+        app:layout_constraintDimensionRatio="h,1:1"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
