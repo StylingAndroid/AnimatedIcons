@@ -19,8 +19,25 @@ class MainActivity : AppCompatActivity() {
 
         activity_main.children()
             .filterIsInstance<ImageView>()
-            .forEach { it.start() }
+            .forEach {
+                it.addAnimationStarter()
+            }
     }
+
+    private fun ImageView.addAnimationStarter() =
+        if (this is RepeatingImageView) {
+            start()
+        } else {
+            setOnClickListener {
+                if (isRunning()) {
+                    println("staaaaap")
+                    stop()
+                } else {
+                    println("start")
+                    start()
+                }
+            }
+        }
 
     private fun ViewGroup.children() =
         (0 until childCount).map { getChildAt(it) }
@@ -28,6 +45,9 @@ class MainActivity : AppCompatActivity() {
     private fun ImageView.start() {
         (drawable as? Animatable2)?.start()
     }
+
+    private fun ImageView.isRunning(): Boolean =
+        (drawable as? Animatable2)?.isRunning ?: false
 
     override fun onPause() {
         super.onPause()

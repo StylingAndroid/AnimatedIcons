@@ -18,4 +18,8 @@
     <string name="min_bottom_left">M24,56 L24,40 L8,40</string>
     <string name="max_bottom_right">M40,56 L56,56 L56,40</string>
     <string name="min_bottom_right">M40,56 L40,40 L56,40</string>
+
+    <string name="clockwise_circle">M32,8 A24,24 0 1 1 31.99,8 z</string>
+    <string name="left_arrow">M20,32 h24 m-8,-8 l8,8 l-8,8</string>
+    <string name="right_arrow">M44,32 h-24 m8,-8 l-8,8 l8,8</string>
 </resources>

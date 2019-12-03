@@ -39,13 +39,11 @@ dependencies {
 detekt {
     version = "1.0.0"
     failFast = true
-    config = files("$projectDir/detekt.yml")
     reports {
         xml {
             destination = file("$project.buildDir/reports/detekt/detekt.xml")
         }
     }
-    filters = ".*test.*,.*/resources/.*,.*/tmp/.*"
 }
 
 ktlint {
