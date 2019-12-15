@@ -6,8 +6,6 @@
 
     <propertyValuesHolder
         android:propertyName="trimPathStart"
-        android:valueFrom="0.0"
-        android:valueTo="1.0"
         android:valueType="floatType">
 
         <keyframe
@@ -19,12 +17,8 @@
             android:value="1.0" />
 
         <keyframe
-            android:fraction="0.6499999"
-            android:value="1.0" />
-
-        <keyframe
             android:fraction="0.65"
-            android:value="0.0" />
+            android:value="1.0" />
 
         <keyframe
             android:fraction="1.0"
@@ -32,18 +26,12 @@
     </propertyValuesHolder>
 
     <propertyValuesHolder
-        android:propertyName="trimPathEnd"
-        android:valueFrom="1.0"
-        android:valueTo="1.0"
+        android:propertyName="trimPathOffset"
         android:valueType="floatType">
 
         <keyframe
             android:fraction="0.0"
-            android:value="1.0" />
-
-        <keyframe
-            android:fraction="0.649999999"
-            android:value="1.0" />
+            android:value="0.0" />
 
         <keyframe
             android:fraction="0.65"

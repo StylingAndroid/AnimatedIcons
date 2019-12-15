@@ -10,7 +10,7 @@
         android:pathData="@string/clockwise_circle"
         android:strokeWidth="5"
         android:strokeColor="@android:color/white"
-        android:strokeLineCap="round" />
+        android:strokeLineCap="round"/>
 
     <path
         android:pathData="@string/left_arrow"
