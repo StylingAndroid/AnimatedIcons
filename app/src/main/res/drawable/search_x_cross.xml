@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <group
+        android:name="magnifier"
+        android:pivotX="32"
+        android:pivotY="32"
+        android:rotation="0">
+        <path
+            android:name="magnifier_path"
+            android:pathData="@string/magnifying_glass_as_line"
+            android:strokeWidth="5"
+            android:strokeColor="@android:color/white"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+
+    <group
+        android:name="line"
+        android:pivotX="32"
+        android:pivotY="32"
+        android:rotation="270">
+        <path
+            android:name="line_path"
+            android:pathData="@string/cross_line"
+            android:strokeAlpha="1.0"
+            android:strokeWidth="5"
+            android:strokeColor="@android:color/white"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/search_x_1"
+    android:propertyName="pathData"
+    android:valueFrom="@string/magnifying_glass"
+    android:valueTo="@string/magnifying_glass_as_line"
+    android:valueType="pathType" />

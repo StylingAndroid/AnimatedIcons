@@ -30,10 +30,8 @@ class MainActivity : AppCompatActivity() {
         } else {
             setOnClickListener {
                 if (isRunning()) {
-                    println("staaaaap")
                     stop()
                 } else {
-                    println("start")
                     start()
                 }
             }

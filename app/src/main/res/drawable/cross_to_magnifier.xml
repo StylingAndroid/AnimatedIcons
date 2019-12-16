@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/search_x_cross">
+
+    <target
+        android:animation="@animator/line_to_magnifier"
+        android:name="magnifier_path" />
+
+    <target
+        android:animation="@animator/cross_to_magnifier"
+        android:name="magnifier" />
+
+    <target
+        android:animation="@animator/cross_to_line_path"
+        android:name="line_path" />
+
+    <target
+        android:animation="@animator/cross_to_line"
+        android:name="line" />
+
+</animated-vector>

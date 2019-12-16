@@ -22,4 +22,9 @@
     <string name="clockwise_circle">M32,8 A24,24 0 1 1 31.99,8 z</string>
     <string name="left_arrow">M20,32 h24 m-8,-8 l8,8 l-8,8</string>
     <string name="right_arrow">M44,32 h-24 m8,-8 l-8,8 l8,8</string>
+
+    <string name="magnifying_glass">M16,16 a14,14 -45 1 0 0.1,-0.1 M54,54 L36,36</string>
+    <string name="magnifying_glass_as_line">M12,12 a0.1,16 -45 1 0 0.1,-0.1 M52,52 L34,34</string>
+
+    <string name="cross_line">M52,52 L12,12</string>
 </resources>
