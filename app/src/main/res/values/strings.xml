@@ -27,4 +27,8 @@
     <string name="magnifying_glass_as_line">M12,12 a0.1,16 -45 1 0 0.1,-0.1 M52,52 L34,34</string>
 
     <string name="cross_line">M52,52 L12,12</string>
+
+    <string name="burger_menu_top_path_line">M8,0 C 13,0 53,0 56,0</string>
+    <string name="burger_menu_top_path_curve">M8,0 C 13,-22 51,-22 56,0</string>
+    <string name="burger_menu_drip_path">M42,0 l4,5 l4,-5z</string>
 </resources>

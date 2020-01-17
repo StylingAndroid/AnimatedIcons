@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/burger_menu_burger_vector">
+
+    <target android:name="top_line">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/burger_menu_duration"
+                android:propertyName="translateY"
+                android:startOffset="@integer/burger_menu_offset2"
+                android:valueFrom="27"
+                android:valueTo="18"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="top_path">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/burger_menu_duration"
+                android:propertyName="pathData"
+                android:startOffset="@integer/burger_menu_offset2"
+                android:valueFrom="@string/burger_menu_top_path_curve"
+                android:valueTo="@string/burger_menu_top_path_line"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="middle_line">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/burger_menu_duration"
+                android:propertyName="translateY"
+                android:startOffset="@integer/burger_menu_duration"
+                android:valueFrom="39"
+                android:valueTo="31"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="bottom_line">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/burger_menu_duration"
+                android:propertyName="translateY"
+                android:startOffset="@integer/burger_menu_offset2"
+                android:valueFrom="52"
+                android:valueTo="44"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="drip">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="@integer/burger_menu_duration"
+                    android:propertyName="translateY"
+                    android:startOffset="0"
+                    android:valueFrom="41.5"
+                    android:valueTo="36.5"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="@integer/burger_menu_duration"
+                    android:propertyName="translateY"
+                    android:startOffset="@integer/burger_menu_duration"
+                    android:valueFrom="36.5"
+                    android:valueTo="28.5"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+
+</animated-vector>

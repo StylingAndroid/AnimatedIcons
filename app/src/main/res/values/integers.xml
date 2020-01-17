@@ -5,4 +5,8 @@
     <integer name="search_x_1">250</integer>
     <integer name="search_x_2">500</integer>
     <integer name="search_x_3">750</integer>
+
+    <integer name="burger_menu_duration">250</integer>
+    <integer name="burger_menu_offset1">125</integer>
+    <integer name="burger_menu_offset2">375</integer>
 </resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <group
+        android:name="top_line"
+        android:translateY="26">
+        <path
+            android:name="top_path"
+            android:pathData="@string/burger_menu_top_path_curve"
+            android:strokeWidth="5"
+            android:strokeColor="@android:color/white"
+            android:strokeLineCap="round" />
+    </group>
+
+    <group
+        android:name="middle_line"
+        android:translateY="39">
+        <path
+            android:pathData="M8,0 H56"
+            android:strokeWidth="5"
+            android:strokeColor="@android:color/white"
+            android:strokeLineCap="round" />
+    </group>
+
+    <group
+        android:name="bottom_line"
+        android:translateY="52">
+        <path
+            android:pathData="M8,0 H56"
+            android:strokeWidth="5"
+            android:strokeColor="@android:color/white"
+            android:strokeLineCap="round" />
+    </group>
+
+    <group
+        android:name="drip"
+        android:translateY="41.5">
+        <path
+            android:fillColor="@android:color/white"
+            android:pathData="@string/burger_menu_drip_path" />
+    </group>
+
+</vector>

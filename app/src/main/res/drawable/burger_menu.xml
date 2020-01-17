@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu"
+        android:drawable="@drawable/burger_menu_menu_vector"
+        android:state_checked="false" />
+
+    <item
+        android:id="@+id/burger"
+        android:drawable="@drawable/burger_menu_burger_vector"
+        android:state_checked="true" />
+
+    <transition
+        android:drawable="@drawable/burger_menu_menu_to_burger"
+        android:fromId="@+id/menu"
+        android:toId="@+id/burger" />
+
+    <transition
+        android:drawable="@drawable/burger_menu_burger_to_menu"
+        android:fromId="@+id/burger"
+        android:toId="@+id/menu" />
+
+</animated-selector>
