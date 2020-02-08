@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/info_unchecked">
+
+    <target
+        android:name="letter_i"
+        android:animation="@animator/info_unchecked_to_checked" />
+
+</animated-vector>

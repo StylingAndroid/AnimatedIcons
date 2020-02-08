@@ -3,4 +3,4 @@
     android:valueFrom="135"
     android:valueTo="0"
     android:propertyName="rotation"
-    android:duration="@android:integer/config_longAnimTime"/>
+    android:duration="@android:integer/config_longAnimTime" />

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <path
+        android:name="circle"
+        android:pathData="@string/clockwise_circle"
+        android:strokeWidth="5"
+        android:strokeColor="@android:color/white"
+        android:strokeLineCap="round" />
+
+    <clip-path android:pathData="@string/clockwise_circle" />
+
+    <group
+        android:name="letter_i"
+        android:pivotX="32"
+        android:pivotY="32"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:translateY="16">
+        <path
+            android:pathData="@string/letter_i"
+            android:strokeWidth="5"
+            android:strokeColor="@android:color/white"
+            android:strokeLineCap="round" />
+    </group>
+</vector>

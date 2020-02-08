@@ -15,8 +15,7 @@
         </aapt:attr>
     </target>
 
-    <target
-        android:name="top_path">
+    <target android:name="top_path">
         <aapt:attr name="android:animation">
             <objectAnimator
                 android:duration="@integer/burger_menu_duration"
