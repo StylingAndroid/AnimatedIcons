@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/play_pause_circle_pause_vector">
+
+    <target
+        android:name="pause_right">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/very_short_animation"
+                android:interpolator="@android:interpolator/accelerate_decelerate"
+                android:propertyName="pathData"
+                android:valueFrom="@string/pause_right_pause"
+                android:valueTo="@string/pause_right_play"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+
+</animated-vector>
