@@ -11,4 +11,6 @@
     <integer name="burger_menu_offset2">375</integer>
 
     <integer name="very_short_animation">100</integer>
+    <integer name="mail_short">200</integer>
+    <integer name="mail_long">400</integer>
 </resources>

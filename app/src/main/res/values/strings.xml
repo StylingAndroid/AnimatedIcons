@@ -41,4 +41,12 @@
     <string name="archive_box_body">M12,29 V56 H52 V29 M28,36 H36</string>
     <string name="archive_lid_closed">M8,28 V16 H56 V28 H8 L12,28 H52 L56,28</string>
     <string name="archive_lid_open">M8,14 V4 H56 V14 H8 L12,21 H52 L56,14</string>
+
+    <string name="mail_envelope_closed">M8,20 V56 H56 V20 H8 M8,22 L32,40 L56,22 M8,22 L32,40 L56,22</string>
+    <string name="mail_envelope_half_closed">M8,20 V56 H56 V20 H8  M8,20 L32,20 L56,20 M8,22 L32,40 L56,22</string>
+    <string name="mail_envelope_half_open">M8,20 V56 H56 V20 H56 M8,20 L32,20 L56,20 M8,22 L32,40 L56,22</string>
+    <string name="mail_envelope_open">M8,20 V56 H56 V20 H56 M8,20 L32,1 L56,20 M8,22 L32,40 L56,22</string>
+    <string name="mail_page_closed">M20,44 H44 V44 H20 Z</string>
+    <string name="mail_page_open">M20,26 H44 V44 H20 Z</string>
+    <string name="mail_clip_path">M8,22 L32,40 L 56,22 Z</string>
 </resources>

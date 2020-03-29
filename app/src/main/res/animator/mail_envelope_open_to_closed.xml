@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+
+    <objectAnimator
+        android:duration="@integer/mail_short"
+        android:interpolator="@android:interpolator/accelerate_cubic"
+        android:propertyName="pathData"
+        android:startOffset="@integer/mail_short"
+        android:valueFrom="@string/mail_envelope_open"
+        android:valueTo="@string/mail_envelope_half_open"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="@integer/mail_short"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:propertyName="pathData"
+        android:valueFrom="@string/mail_envelope_half_closed"
+        android:valueTo="@string/mail_envelope_closed"
+        android:valueType="pathType" />
+</set>

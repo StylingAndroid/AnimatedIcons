@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/mail_open">
+
+    <target
+        android:name="envelope"
+        android:animation="@animator/mail_envelope_open_to_closed" />
+
+    <target
+        android:name="page">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/mail_short"
+                android:interpolator="@android:interpolator/accelerate_cubic"
+                android:propertyName="pathData"
+                android:valueFrom="@string/mail_page_open"
+                android:valueTo="@string/mail_page_closed"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+
+    <target
+        android:name="mail">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/mail_long"
+                android:interpolator="@android:interpolator/accelerate_decelerate"
+                android:propertyName="translateY"
+                android:startOffset="@integer/mail_short"
+                android:valueFrom="5"
+                android:valueTo="0"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+</animated-vector>
