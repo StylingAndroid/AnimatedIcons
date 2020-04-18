@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <path android:name="moving_dot"
+        android:strokeColor="#FFF"
+        android:strokeWidth="5"
+        android:pathData="@string/share_bottom_dot" />
+
+    <clip-path
+        android:name="clip"
+        android:pathData="@string/share_clip_show" />
+
+    <path android:name="left_dot"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="5"
+        android:pathData="@string/share_left_dot" />
+
+    <path android:name="top_dot"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="5"
+        android:pathData="@string/share_top_dot" />
+
+    <path android:name="bottom_dot"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="5"
+        android:pathData="@string/share_bottom_dot" />
+
+    <path
+        android:name="top_line"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="5"
+        android:pathData="@string/share_top_line" />
+
+    <path
+        android:name="bottom_line"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="5"
+        android:pathData="@string/share_bottom_line" />
+</vector>

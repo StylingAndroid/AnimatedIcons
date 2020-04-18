@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/share_vector">
+
+    <target
+        android:animation="@animator/share_clip_forward"
+        android:name="clip" />
+
+    <target
+        android:animation="@animator/share_dot_forward"
+        android:name="moving_dot" />
+
+</animated-vector>

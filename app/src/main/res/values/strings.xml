@@ -49,4 +49,13 @@
     <string name="mail_page_closed">M20,44 H44 V44 H20 Z</string>
     <string name="mail_page_open">M20,26 H44 V44 H20 Z</string>
     <string name="mail_clip_path">M8,22 L32,40 L 56,22 Z</string>
+
+    <string name="share_clip_show">M8,0 H58 V64 H8z</string>
+    <string name="share_clip_hidden_right">M58,0 H58 V64 H58z</string>
+    <string name="share_clip_hidden_left">M25,0 H25 V64 H25z</string>
+    <string name="share_left_dot">M19,26 a6,6 0 1 1 -0.01, 0z</string>
+    <string name="share_top_dot">M45,10 a6,6 0 1 1 -0.01, 0z</string>
+    <string name="share_bottom_dot">M45,42 a6,6 0 1 1 -0.01, 0z</string>
+    <string name="share_top_line">M23,29.5 L40.5,18.5</string>
+    <string name="share_bottom_line">M23,34.5 L40.5,45.5</string>
 </resources>

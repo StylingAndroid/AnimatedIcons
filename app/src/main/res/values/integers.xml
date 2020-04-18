@@ -13,4 +13,9 @@
     <integer name="very_short_animation">100</integer>
     <integer name="mail_short">200</integer>
     <integer name="mail_long">400</integer>
+
+    <integer name="share_expose">500</integer>
+    <integer name="share_expose_offset">550</integer>
+    <integer name="share_move">200</integer>
+    <integer name="share_move_offset">400</integer>
 </resources>

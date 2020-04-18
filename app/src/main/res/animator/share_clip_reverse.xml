@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+
+    <objectAnimator
+        android:duration="@integer/share_expose"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:propertyName="pathData"
+        android:valueFrom="@string/share_clip_show"
+        android:valueTo="@string/share_clip_hidden_left"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:duration="@integer/share_expose"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:propertyName="pathData"
+        android:startOffset="@integer/share_expose_offset"
+        android:valueFrom="@string/share_clip_hidden_right"
+        android:valueTo="@string/share_clip_show"
+        android:valueType="pathType" />
+
+</set>

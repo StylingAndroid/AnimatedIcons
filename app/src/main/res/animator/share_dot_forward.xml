@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/share_move"
+    android:propertyName="pathData"
+    android:startOffset="@integer/share_move_offset"
+    android:valueFrom="@string/share_bottom_dot"
+    android:valueTo="@string/share_left_dot"
+    android:valueType="pathType" />
