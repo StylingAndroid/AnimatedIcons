@@ -58,4 +58,6 @@
     <string name="share_bottom_dot">M45,42 a6,6 0 1 1 -0.01, 0z</string>
     <string name="share_top_line">M23,29.5 L40.5,18.5</string>
     <string name="share_bottom_line">M23,34.5 L40.5,45.5</string>
+
+    <string name="infinity">M16,20 A12,12 0 0 0 16,44 C 26,44 38,20 48,20 A12,12 0 0 1 48,44 C38,44 26,20 16,20</string>
 </resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <path
+        android:pathData="@string/infinity"
+        android:strokeWidth="5"
+        android:strokeAlpha="0.25"
+        android:strokeColor="#FFF" />
+
+    <path
+        android:name="infinity_path"
+        android:pathData="@string/infinity"
+        android:strokeWidth="5"
+        android:strokeAlpha="1"
+        android:strokeColor="#FFF"
+        android:strokeLineCap="round" />
+
+</vector>

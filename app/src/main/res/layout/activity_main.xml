@@ -142,7 +142,7 @@
         android:checked="false"
         android:contentDescription="@null"
         android:thumb="@null"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/share"
@@ -155,11 +155,20 @@
         android:thumb="@null"
         tools:ignore="MissingConstraints" />
 
+    <com.stylingandroid.animatedicons.RepeatingImageView
+        android:id="@+id/infinity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/infinity"
+        app:tint="@color/colorAccent"
+        tools:ignore="MissingConstraints" />
+
     <androidx.constraintlayout.helper.widget.Flow
         android:id="@+id/flow"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="loadingv2,strikethru,plus_x,loadingv3,max_min,arrow_left_circle,arrow_right_circle,search_x,burger_menu,info,play_pause_circle, archive, mail, share"
+        app:constraint_referenced_ids="loadingv2,strikethru,plus_x,loadingv3,max_min,arrow_left_circle,arrow_right_circle,search_x,burger_menu,info,play_pause_circle, archive, mail, share, infinity"
         app:flow_horizontalAlign="start"
         app:flow_verticalAlign="top"
         app:flow_wrapMode="aligned"
@@ -167,14 +176,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.SwitchCompat
+    <com.stylingandroid.animatedicons.RepeatingImageView
         android:id="@+id/selected"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/share"
-        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/infinity"
+        app:tint="@color/colorAccent"
         android:contentDescription="@null"
-        android:thumb="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="h,1:1"
         app:layout_constraintEnd_toEndOf="parent"

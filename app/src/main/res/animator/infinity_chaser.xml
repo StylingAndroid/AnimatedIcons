@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="5000"
+    android:interpolator="@android:interpolator/linear"
+    android:repeatCount="infinite"
+    android:repeatMode="restart">
+
+    <propertyValuesHolder
+        android:propertyName="trimPathStart"
+        android:valueFrom="0.0"
+        android:valueTo="1.0"
+        android:valueType="floatType">
+
+        <keyframe
+            android:fraction="0"
+            android:value="0" />
+
+        <keyframe
+            android:fraction="0.15"
+            android:value="0.9" />
+
+        <keyframe
+            android:fraction="0.55"
+            android:value="1" />
+
+        <keyframe
+            android:fraction="1"
+            android:value="1" />
+    </propertyValuesHolder>
+
+    <propertyValuesHolder
+        android:propertyName="trimPathOffset"
+        android:valueFrom="0.0"
+        android:valueTo="5.0"
+        android:valueType="floatType">
+
+        <keyframe
+            android:fraction="0"
+            android:value="0" />
+
+        <keyframe
+            android:fraction="0.3"
+            android:value="1.85" />
+        <keyframe
+            android:fraction="0.45"
+            android:value="2.95" />
+
+        <keyframe
+            android:fraction="0.6"
+            android:value="4.25" />
+
+        <keyframe
+            android:fraction="0.75"
+            android:value="5" />
+
+        <keyframe
+            android:fraction="1.0"
+            android:value="5" />
+    </propertyValuesHolder>
+
+
+    <propertyValuesHolder
+        android:propertyName="trimPathEnd"
+        android:valueFrom="1.0"
+        android:valueTo="2.0"
+        android:valueType="floatType">
+
+        <keyframe
+            android:fraction="0"
+            android:value="1" />
+
+        <keyframe
+            android:fraction="0.15"
+            android:value="1" />
+
+        <keyframe
+            android:fraction="0.55"
+            android:value="1.1" />
+
+        <keyframe
+            android:fraction="0.75"
+            android:value="1.99" />
+
+        <keyframe
+            android:fraction="1"
+            android:value="1.99" />
+    </propertyValuesHolder>
+</objectAnimator>
