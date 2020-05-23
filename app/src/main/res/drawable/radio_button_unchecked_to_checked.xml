@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/radio_button_unchecked">
+
+    <target
+        android:name="group"
+        android:animation="@animator/radio_button_push_start" />
+
+    <target
+        android:name="circle"
+        android:animation="@animator/radio_button_circle_open" />
+
+    <target
+        android:name="tick"
+        android:animation="@animator/radio_button_tick_show" />
+</animated-vector>

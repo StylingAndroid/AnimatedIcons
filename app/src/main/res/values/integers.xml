@@ -18,4 +18,6 @@
     <integer name="share_expose_offset">550</integer>
     <integer name="share_move">200</integer>
     <integer name="share_move_offset">400</integer>
+
+    <integer name="radio_button_duration">1000</integer>
 </resources>

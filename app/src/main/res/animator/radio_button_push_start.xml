@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/radio_button_duration"
+    android:repeatCount="0"
+    android:repeatMode="restart"
+    android:valueFrom="1.0"
+    android:valueTo="1.0"
+    android:valueType="floatType">
+
+    <propertyValuesHolder android:propertyName="scaleX">
+        <keyframe
+            android:fraction="0"
+            android:value="1.0" />
+        <keyframe
+            android:fraction="0.15"
+            android:value="0.9" />
+        <keyframe
+            android:fraction="0.3"
+            android:value="1.0" />
+        <keyframe
+            android:fraction="1.0"
+            android:value="1.0" />
+    </propertyValuesHolder>
+
+    <propertyValuesHolder android:propertyName="scaleY">
+        <keyframe
+            android:fraction="0"
+            android:value="1.0" />
+        <keyframe
+            android:fraction="0.15"
+            android:value="0.9" />
+        <keyframe
+            android:fraction="0.3"
+            android:value="1.0" />
+        <keyframe
+            android:fraction="1.0"
+            android:value="1.0" />
+    </propertyValuesHolder>
+</objectAnimator>
