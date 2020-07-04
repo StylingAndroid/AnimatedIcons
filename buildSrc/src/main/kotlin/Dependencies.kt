@@ -2,7 +2,7 @@ const val kotlinVersion = "1.3.72"
 
 object BuildPlugins {
     object Version {
-        const val androidBuildToolsVersion = "4.1.0-alpha09"
+        const val androidBuildToolsVersion = "4.2.0-alpha03"
     }
 
     const val androidGradlePlugin = "com.android.tools.build:gradle:${Version.androidBuildToolsVersion}"
@@ -23,8 +23,8 @@ object AndroidSdk {
 object Libraries {
     private object Versions {
         const val appCompat = "1.3.0-alpha01"
-        const val ktx = "1.4.0-alpha01"
-        const val constraintLayout = "2.0.0-beta6"
+        const val ktx = "1.5.0-alpha01"
+        const val constraintLayout = "2.0.0-beta7"
         const val vectorDrawable = "1.2.0-alpha01"
         const val animatedVectorDrawable = "1.1.0"
     }

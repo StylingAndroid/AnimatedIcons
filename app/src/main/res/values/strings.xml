@@ -63,4 +63,6 @@
 
     <string name="radio_button_circle">M32,8 A24,24 0 1 1 31.99,8 z</string>
     <string name="radio_button_tick">M26,36 L36,36 L38,4</string>
+
+    <string name="heart">M12,32 A8,8 0 0 1 32, 18 A8,8 0 0 1 52, 32 L 32, 56z</string>
 </resources>

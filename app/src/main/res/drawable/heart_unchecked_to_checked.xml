@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/heart_vector">
+
+    <target android:name="outline">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="@android:integer/config_mediumAnimTime"
+                android:interpolator="@android:interpolator/accelerate_decelerate">
+                <propertyValuesHolder
+                    android:propertyName="scaleX"
+                    android:valueFrom="1.0"
+                    android:valueTo="1.0"
+                    android:valueType="floatType">
+                    <keyframe
+                        android:fraction="0"
+                        android:value="1.0" />
+                    <keyframe
+                        android:fraction="0.5"
+                        android:value="0.8" />
+                    <keyframe
+                        android:fraction="1.0"
+                        android:value="1.0" />
+                </propertyValuesHolder>
+                <propertyValuesHolder
+                    android:propertyName="scaleY"
+                    android:valueFrom="1.0"
+                    android:valueTo="1.0"
+                    android:valueType="floatType">
+                    <keyframe
+                        android:fraction="0"
+                        android:value="1.0" />
+                    <keyframe
+                        android:fraction="0.5"
+                        android:value="0.8" />
+                    <keyframe
+                        android:fraction="1.0"
+                        android:value="1.0" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+    <target android:name="filled_heart">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="@android:integer/config_mediumAnimTime"
+                android:interpolator="@android:interpolator/accelerate_decelerate">
+                <propertyValuesHolder
+                    android:propertyName="fillAlpha"
+                    android:valueFrom="0.0"
+                    android:valueTo="1.0"
+                    android:valueType="floatType">
+                    <keyframe
+                        android:fraction="0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.5"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="1.0"
+                        android:value="1.0" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+    <target android:name="filled">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="@android:integer/config_mediumAnimTime"
+                android:interpolator="@android:interpolator/accelerate_decelerate">
+                <propertyValuesHolder
+                    android:propertyName="scaleX"
+                    android:valueFrom="0.0"
+                    android:valueTo="1.0"
+                    android:valueType="floatType">
+                    <keyframe
+                        android:fraction="0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.5"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="1.0"
+                        android:value="1.0" />
+                </propertyValuesHolder>
+                <propertyValuesHolder
+                    android:propertyName="scaleY"
+                    android:valueFrom="0.0"
+                    android:valueTo="1.0"
+                    android:valueType="floatType">
+                    <keyframe
+                        android:fraction="0"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="0.5"
+                        android:value="0.0" />
+                    <keyframe
+                        android:fraction="1.0"
+                        android:value="1.0" />
+                </propertyValuesHolder>
+            </objectAnimator>
+        </aapt:attr>
+    </target>
+</animated-vector>
