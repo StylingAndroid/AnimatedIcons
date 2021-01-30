@@ -65,4 +65,14 @@
     <string name="radio_button_tick">M26,36 L36,36 L38,4</string>
 
     <string name="heart">M12,32 A8,8 0 0 1 32, 18 A8,8 0 0 1 52, 32 L 32, 56z</string>
+
+    <string name="visibility_v3_lids_open">M4,32 Q32,0 60,32 Q32,64 4,32z</string>
+    <string name="visibility_v3_lids_closed">M4,32 Q32,64 60,32 Q32,64 4,32z</string>
+    <string name="visibility_v3_iris_open">M32,26 A6,6 0 1 1 31.99,26 z</string>
+    <string name="visibility_v3_iris_closed">M32,32 A6,6 0 1 1 31.99,32 z</string>
+    <string name="visibility_v3_lash1">M5,42 L1.75,45</string>
+    <string name="visibility_v3_lash2">M18.5,51 L16.5,54.5</string>
+    <string name="visibility_v3_lash3">M32,55 L32,59</string>
+    <string name="visibility_v3_lash4">M45.5,51 L47.5,54.5</string>
+    <string name="visibility_v3_lash5">M59,42 L62.25,45</string>
 </resources>

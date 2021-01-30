@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <group>
+        <clip-path
+            android:name="irisClip"
+            android:pathData="@string/visibility_v3_lids_closed" />
+        <path
+            android:name="irisPath"
+            android:pathData="@string/visibility_v3_iris_closed"
+            android:strokeWidth="4"
+            android:strokeColor="@android:color/white" />
+    </group>
+
+    <path
+        android:name="lids"
+        android:pathData="@string/visibility_v3_lids_closed"
+        android:strokeWidth="4"
+        android:strokeColor="@android:color/white"
+        android:strokeLineJoin="round" />
+
+    <path
+        android:name="lash1"
+        android:pathData="@string/visibility_v3_lash1"
+        android:strokeWidth="4"
+        android:strokeColor="@android:color/white"
+        android:strokeLineCap="round"
+        android:trimPathEnd="1" />
+
+    <path
+        android:name="lash2"
+        android:pathData="@string/visibility_v3_lash2"
+        android:strokeWidth="4"
+        android:strokeColor="@android:color/white"
+        android:strokeLineCap="round"
+        android:trimPathEnd="1" />
+
+    <path
+        android:name="lash3"
+        android:pathData="@string/visibility_v3_lash3"
+        android:strokeWidth="4"
+        android:strokeColor="@android:color/white"
+        android:strokeLineCap="round"
+        android:trimPathEnd="1" />
+
+    <path
+        android:name="lash4"
+        android:pathData="@string/visibility_v3_lash4"
+        android:strokeWidth="4"
+        android:strokeColor="@android:color/white"
+        android:strokeLineCap="round"
+        android:trimPathEnd="1" />
+
+    <path
+        android:name="lash5"
+        android:pathData="@string/visibility_v3_lash5"
+        android:strokeWidth="4"
+        android:strokeColor="@android:color/white"
+        android:strokeLineCap="round"
+        android:trimPathEnd="1" />
+
+</vector>

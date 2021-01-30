@@ -2,22 +2,26 @@ package com.stylingandroid.animatedicons
 
 import android.graphics.drawable.Animatable2
 import android.os.Bundle
-import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import androidx.core.view.children
+import com.stylingandroid.animatedicons.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 
     override fun onResume() {
         super.onResume()
 
-        activity_main.children()
+        binding.root.children
             .filterIsInstance<ImageView>()
             .forEach {
                 it.addAnimationStarter()
@@ -37,9 +41,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-    private fun ViewGroup.children() =
-        (0 until childCount).map { getChildAt(it) }
-
     private fun ImageView.start() {
         (drawable as? Animatable2)?.start()
     }
@@ -50,7 +51,7 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
 
-        activity_main.children()
+        binding.root.children
             .filterIsInstance<ImageView>()
             .forEach { it.stop() }
     }

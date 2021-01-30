@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
+    android:padding="16dp"
     android:clipChildren="false"
     tools:context=".MainActivity">
 
@@ -186,11 +186,22 @@
         android:thumb="@null"
         tools:ignore="MissingConstraints" />
 
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/visibility_v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/visibility_v3"
+        android:backgroundTint="@color/colorAccent"
+        android:checked="false"
+        android:contentDescription="@null"
+        android:thumb="@null"
+        tools:ignore="MissingConstraints" />
+
     <androidx.constraintlayout.helper.widget.Flow
         android:id="@+id/flow"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="loadingv2,strikethru,plus_x,loadingv3,max_min,arrow_left_circle,arrow_right_circle,search_x,burger_menu,info,play_pause_circle, archive, mail, share, infinity, radio_button, heart"
+        app:constraint_referenced_ids="loadingv2,strikethru,plus_x,loadingv3,max_min,arrow_left_circle,arrow_right_circle,search_x,burger_menu,info,play_pause_circle, archive, mail, share, infinity, radio_button, heart, visibility_v3"
         app:flow_horizontalAlign="start"
         app:flow_verticalAlign="top"
         app:flow_wrapMode="aligned"
@@ -202,7 +213,7 @@
         android:id="@+id/selected"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="@drawable/heart"
+        android:background="@drawable/visibility_v3"
         android:backgroundTint="@color/colorAccent"
         android:contentDescription="@null"
         android:thumb="@null"

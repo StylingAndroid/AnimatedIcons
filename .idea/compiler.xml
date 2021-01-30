@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="AnimatedIcons.app" target="1.8" />
-      <module name="AnimatedIcons.buildSrc" target="1.8" />
+      <module name="AnimatedIcons.app" target="11" />
+      <module name="AnimatedIcons.buildSrc" target="11" />
       <module name="AnimatedIcons_buildSrc" target="1.8" />
       <module name="app" target="1.8" />
     </bytecodeTargetLevel>

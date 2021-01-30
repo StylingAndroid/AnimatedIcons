@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/visibilityv3_closed_vector">
+
+    <target android:name="irisPath">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@android:integer/config_shortAnimTime"
+                android:interpolator="@@android:interpolator/accelerate_decelerate"
+                android:propertyName="pathData"
+                android:startOffset="@android:integer/config_shortAnimTime"
+                android:valueFrom="@string/visibility_v3_iris_closed"
+                android:valueTo="@string/visibility_v3_iris_open"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="irisClip">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@android:integer/config_shortAnimTime"
+                android:interpolator="@@android:interpolator/accelerate_decelerate"
+                android:propertyName="pathData"
+                android:startOffset="@android:integer/config_shortAnimTime"
+                android:valueFrom="@string/visibility_v3_lids_closed"
+                android:valueTo="@string/visibility_v3_lids_open"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="lids">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@android:integer/config_shortAnimTime"
+                android:interpolator="@@android:interpolator/accelerate_decelerate"
+                android:propertyName="pathData"
+                android:startOffset="@android:integer/config_shortAnimTime"
+                android:valueFrom="@string/visibility_v3_lids_closed"
+                android:valueTo="@string/visibility_v3_lids_open"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="lash1">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/very_short_animation"
+                android:interpolator="@@android:interpolator/accelerate_cubic"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="1.0"
+                android:valueTo="0.0"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="lash2">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/very_short_animation"
+                android:interpolator="@@android:interpolator/accelerate_cubic"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="1.0"
+                android:valueTo="0.0"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="lash3">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/very_short_animation"
+                android:interpolator="@@android:interpolator/accelerate_cubic"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="1.0"
+                android:valueTo="0.0"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="lash4">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/very_short_animation"
+                android:interpolator="@@android:interpolator/accelerate_cubic"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="1.0"
+                android:valueTo="0.0"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="lash5">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="@integer/very_short_animation"
+                android:interpolator="@@android:interpolator/accelerate_cubic"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="1.0"
+                android:valueTo="0.0"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+</animated-vector>
